@@ -6,7 +6,7 @@
    * Inside each directory all the programs are aranged in alphabetical order of file name. E.g prg_01.py prg_02.py 
 
 
-## Below is description about each directory and topic.
+## Below is description about each directory and topic...
 
    | Directory Name  | Topic Covered    |
    | --------------- | ---------------- |
