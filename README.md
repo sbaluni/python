@@ -1,4 +1,4 @@
-#   
+#  Repository to learn Python
    * Purpose of this repository is to learn Python from beginning.
 
    * All the topics are aranged topic-wise. Each directory contains concepts and programs related to one topic.
