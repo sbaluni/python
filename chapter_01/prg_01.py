@@ -5,4 +5,5 @@
 #   Suryakant Baluni        02/08/2022           Python program to print "Hello, world!"
 #
 
-print('Hello, world!')
+print("Hello, world!")
+print('Hello, world again!')
