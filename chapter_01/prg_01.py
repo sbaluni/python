@@ -7,3 +7,7 @@
 
 print("Hello, world!")
 print('Hello, world again!')
+print("'I am single quoted string'")
+print('\'I am single quoted string\'')
+print('"I am double quoted string"')
+print("\"I am double quoted string\"")
