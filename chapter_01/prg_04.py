@@ -2,13 +2,11 @@
 #
 #   User                    Date(dd/mm/yyyy)     Description 
 #   ------------------------------------------------------------------------------------------
-#   Suryakant Baluni        17/01/2023           Input 2 integers from user and perform basic arithmatic operations.
+#   Suryakant Baluni        17/01/2023           Input 2 floating numbers from user and perform basic arithmatic operations.
 #
 
-# input() function is used to take input from user. It returns a string.
-# So in order to perform numeric operations on variables we need to convert input to int type first using int().
-a = int(input("Input a(int):"))
-b = int(input("Input b(int):"))
+a = float(input("Input number a:"))
+b = float(input("Input number b:"))
 
 # Calculate sum and store result in a variable c
 sum = a + b
