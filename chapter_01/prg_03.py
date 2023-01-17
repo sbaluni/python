@@ -2,7 +2,7 @@
 #
 #   User                    Date(dd/mm/yyyy)     Description 
 #   ------------------------------------------------------------------------------------------
-#   Suryakant Baluni        17/01/2023           Input 2 numbers from user and calculate sum of those 2 numbers.
+#   Suryakant Baluni        17/01/2023           Input 2 numbers from user and perform basic arithmatic operations.
 #
 
 # input() function is used to take input from user. It returns a string.
@@ -11,7 +11,15 @@ a = int(input("Input a:"))
 b = int(input("Input b:"))
 
 # Calculate sum and store result in a variable c
-c = a + b
+sum = a + b
+diff = a - b
+multi = a*b
+division = a/b
+rem = a % b
 
-# Print sum of a and b.
-print("Sum:", c)
+# Print results.
+print("Sum:", sum)
+print("Difference:", diff)
+print("Multiplication:", multi)
+print("Division:", division)
+print("Remainder:", rem)
