@@ -12,5 +12,7 @@ num = int(input("Input a number:"))
 # Convert that number to string and then print the length of string as number of digits.
 num_of_digits = len(str(num))
 
-# Print results.
-print("Number of digits in", num, ":", num_of_digits)
+# Print results. Note that we can use f-string to substitute variable values.
+# With f-string there is no need to explicitly convert other datatype to string
+# to display concatenated output.
+print(f"Number of digits in {num} : {num_of_digits}")
