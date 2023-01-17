@@ -16,6 +16,7 @@ diff = a - b
 multi = a*b
 division = a/b
 rem = a % b
+power = a ** b
 
 # Print results.
 print("Sum:", sum)
@@ -23,3 +24,4 @@ print("Difference:", diff)
 print("Multiplication:", multi)
 print("Division:", division)
 print("Remainder:", rem)
+print(a, " to power ", b, " is: ", power)
