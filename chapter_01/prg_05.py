@@ -8,10 +8,18 @@
 a = float(input("Input a:"))
 b = float(input("Input b:"))
 
-# Swap value of a and b
-c = a
-a = b
-b = c
+# Method 1: Swap value of a and b (Using third variable c)
+# c = a
+# a = b
+# b = c
+
+# Method 2: Swap value of a and b (Without using third variable)
+# a = a + b
+# b = a - b
+# a = a - b
+
+# Method 3: Swap value of a and b in single line
+a, b = b, a
 
 # Print results.
 print("----After swapping----")
