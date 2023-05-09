@@ -11,10 +11,10 @@ r = float(input("Input radius of circle:"))
 # Define value of pi
 pi = 3.14
 
-# Calculate area of rectangle
+# Calculate area of circle
 area = pi * r * r
 
-# Calculate perimeter of rectangle
+# Calculate perimeter of circle
 p = 2 * pi * r
 
 # Print results. Use formatting options to format output up to 2 decimal places.
