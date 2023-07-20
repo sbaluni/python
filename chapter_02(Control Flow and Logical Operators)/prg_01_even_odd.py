@@ -2,7 +2,8 @@
 #
 #   User                    Date(dd/mm/yyyy)     Description 
 #   ------------------------------------------------------------------------------------------
-#   Suryakant Baluni        17/01/2023           Input a number from user and check if the number is even or odd.
+#   Suryakant Baluni        17/01/2023           Input a number from user and check if the 
+#                                                number is even or odd.
 
 num = int(input("Input a number:"))
 

@@ -2,7 +2,8 @@
 #
 #   User                    Date(dd/mm/yyyy)     Description 
 #   ------------------------------------------------------------------------------------------
-#   Suryakant Baluni        17/01/2023           Input 2 integers from user and perform basic arithmatic operations.
+#   Suryakant Baluni        17/01/2023           Input 2 integers from user and perform basic 
+#                                                arithmatic operations.
 #
 
 # input() function is used to take input from user. It returns a string.

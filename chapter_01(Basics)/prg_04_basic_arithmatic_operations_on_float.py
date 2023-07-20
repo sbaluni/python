@@ -2,7 +2,8 @@
 #
 #   User                    Date(dd/mm/yyyy)     Description 
 #   ------------------------------------------------------------------------------------------
-#   Suryakant Baluni        17/01/2023           Input 2 floating numbers from user and perform basic arithmatic operations.
+#   Suryakant Baluni        17/01/2023           Input 2 floating numbers from user and 
+#                                                perform basic arithmatic operations.
 #
 
 a = float(input("Input number a:"))
