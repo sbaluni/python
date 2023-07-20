@@ -10,7 +10,7 @@
 a = int(input("Input a(int):"))
 b = int(input("Input b(int):"))
 
-# Calculate sum and store result in a variable c
+# Perform various arithmatic operations and store results in individual variables.
 sum = a + b
 diff = a - b
 multi = a*b
