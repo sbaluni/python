@@ -2,7 +2,7 @@
 #
 #   User                    Date(dd/mm/yyyy)     Description 
 #   ----------------------------------------------------------------------------------
-#   Suryakant Baluni        02/08/2022           Python program to use print function..
+#   Suryakant Baluni        02/08/2022           Python program to use print function.
 #
 
 # Print Hello, world!
