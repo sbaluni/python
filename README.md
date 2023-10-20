@@ -1,3 +1,3 @@
-#  Repository for python programs.
+#  Repository for python.
 
 
