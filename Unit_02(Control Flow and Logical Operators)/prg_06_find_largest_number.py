@@ -15,3 +15,8 @@ elif num2 >= num1 and num2 >= num3:
     print(f"{num2} is greatest")
 elif num3 >= num1 and num3 >= num2:
     print(f"{num3} is greatest")
+
+
+
+# We can also make use of ternary operator here to write above logic in single line.
+print(f"{num1} is greatest") if num1 >= num2 and num1 >= num3 else print(f"{num2} is greatest") if num2 >= num1 and num2 >= num3 else print(f"{num3} is greatest")
