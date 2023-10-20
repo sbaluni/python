@@ -15,7 +15,8 @@ b = int(input("Input b(int):"))
 sum = a + b
 diff = a - b
 multi = a*b
-division = a/b
+division = a/b              # Returns float
+floor_division = a//b       # Returns int
 rem = a % b
 power = a ** b
 
@@ -24,5 +25,6 @@ print("Sum:", sum)
 print("Difference:", diff)
 print("Multiplication:", multi)
 print("Division:", division)
+print("Floor Division:", floor_division)
 print("Remainder:", rem)
 print(a, " to power ", b, " is: ", power)
