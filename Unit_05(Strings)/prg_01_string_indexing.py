@@ -26,3 +26,15 @@ print("3rd characters is:", my_str[-3])
 print("2nd characters is:", my_str[-4])
 print("1st characters is:", my_str[-5])
 
+
+
+# Strings are immutable in Python. That means we can not modify string elements in Python.
+# However we can assign a new value to a string.
+# For example: Below assignment is not permitted in Python
+# my_str[2] = 'X'
+#
+# But we can assign new value to string as many times as we want.
+# Example: Following is allowed.
+# my_str = "Hello"
+# my_str = "World"
+# my_str = "Python"
