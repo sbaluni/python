@@ -8,7 +8,6 @@ print("------------Method 1 [ Using range ]------------")
 for i in range(5, 0, -1):
     print(i)
 
-
 print("------------Method 2 [ Using range with reversed ]------------")
 for i in reversed(range(1,6)):
     print(i)
