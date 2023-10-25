@@ -25,3 +25,11 @@ for i in range(str_len,-1,-1):
     rev_str += my_str[i]
 
 print(f"Reverse of string[Method 3: for loop]:{rev_str}")
+
+
+# Method 4 - Using for loop
+rev_str = ""
+for i in my_str:
+    rev_str = i + rev_str
+
+print(f"Reverse of string[Method 4: for loop]:{rev_str}")
