@@ -15,8 +15,8 @@ b = int(input("Input b(int):"))
 sum = a + b
 diff = a - b
 multi = a*b
-division = a/b              # Returns float
-floor_division = a//b       # Returns int
+division = a/b              # Returns float (Float division)
+floor_division = a//b       # Returns int (Integer division)
 rem = a % b
 power = a ** b
 

@@ -39,6 +39,8 @@ if user_choice in valid_choices:
         print("You Win!!")
     elif user_choice == "2" and computer_choice == "1":
         print("You Win!!")
+    elif user_choice == computer_choice:
+        print("It's a tie!!")
     else:
         print("You Lose!!")
 else:

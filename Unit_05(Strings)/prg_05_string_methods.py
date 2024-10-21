@@ -124,7 +124,7 @@ print("Partition the string by 'Python' substring:", s.partition('Python'))
 # replace() method replaces a specified phrase with another specified phrase.
 # Syntax: string.replace(oldvalue, newvalue, count) 
 print("Replace all occurrences of 'Python' with 'Java': ", s.replace('Python', 'Java'))
-print("Replace all only first 2 occurrences of 'Python' with 'Java': ", s.replace('Python', 'Java', 2))
+print("Replace only first 2 occurrences of 'Python' with 'Java': ", s.replace('Python', 'Java', 2))
 
 # split() method splits a string into a list.
 # default separator is any whitespace.

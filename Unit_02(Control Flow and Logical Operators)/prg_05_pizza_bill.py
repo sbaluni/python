@@ -19,8 +19,8 @@
 
 # Converting user input to upper case so that user can input either lower case or upper case.
 size = input("Please input pizza size(S|M|L)?").upper()
-pepperoni = input("Would you like to add pepperoni?").upper()
-extra_cheese = input("Would you like to add extra cheese?").upper()
+pepperoni = input("Would you like to add pepperoni(Y/N)?").upper()
+extra_cheese = input("Would you like to add extra cheese(Y/N)?").upper()
 
 total_bill = 0
 if size == "L":

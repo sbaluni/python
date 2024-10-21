@@ -16,3 +16,6 @@ num_of_digits = len(str(num))
 # With f-string there is no need to explicitly convert other datatype to string
 # to display concatenated output.
 print(f"Number of digits in {num}: {num_of_digits}")
+
+# Or output can be formatted like this.
+#print("Number of digits in %d: %d" %(num, num_of_digits))

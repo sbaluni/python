@@ -3,7 +3,7 @@
 #   User                    Date(dd/mm/yyyy)     Description 
 #   ----------------------------------------------------------------------------------------------
 #   Suryakant Baluni        09/11/2023           Take 2 strings as input from user(string and a substring).
-#                                                You have to print the number of times that the substring 
+#                                                You have to print the number of times the substring 
 #                                                occurs in the given string. 
 #
 #   Sample Input:

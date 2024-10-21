@@ -13,3 +13,7 @@ for i in range(1, power + 1):
     p *= num
 
 print(f"{num} to power {power} is {p}")
+
+# Or we can use ** operator to calculate a^b
+print(f"{num} to power {power} is {num**power}")
+
