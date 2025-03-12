@@ -31,10 +31,14 @@ How are you?""")
 print('''Hello Suryakant
 How are you?''')
 
-# If we don't need new line in any of the lines, we can do that by adding a \ at end of that line.
+# If we don't need new line in any of the lines, we can do that by adding continuation character "\"" at end of that line.
 print("""Hello Suryakant \
 How are you?
 Hey, I am fine.""")
+
+print("Sum is :", 1 + 2 \
+      +3 + 4 \
+      + 5)
 
 # Repeat string multiple times using *
 # For example if we want to print Hello 3 times.
