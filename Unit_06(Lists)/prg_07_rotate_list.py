@@ -21,8 +21,6 @@ def rotate_list1(arr, d):
     return temp_arr
 
 
-# Method 2: 
-
 # Define list of integers
 arr = [1, 2, 3, 4, 5]
 # Take number of rotation as input from user.
