@@ -13,13 +13,11 @@
 def rotate_list1(arr, d):
     # Re-calculate d for the cases when value of d is greater than length of arr.
     d = d%len(arr)
-    # Store the elements from dth position to end of array to a temp list
-    temp_arr = arr[d:]
-    # Append first d elements from arr to temp array
-    temp_arr[len(temp_arr):] = arr[0:d]
+    # Create a temp list and add elements from dth position to last element of array.
+    # then add first d element at end of temp list to get final rotated list.
+    temp_arr = arr[d:] + arr[0:d]
     # Return the final list
     return temp_arr
-
 
 # Define list of integers
 arr = [1, 2, 3, 4, 5]
