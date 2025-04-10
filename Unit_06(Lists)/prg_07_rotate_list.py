@@ -9,6 +9,7 @@
 # Input: arr[] = [1, 2, 3, 4, 5], d = 2
 # Output: [3, 4, 5, 1, 2]
 
+# Method 1: Using a temp list and slicing operation on list
 def rotate_list1(arr, d):
     # Re-calculate d for the cases when value of d is greater than length of arr.
     d = d%len(arr)
@@ -16,15 +17,17 @@ def rotate_list1(arr, d):
     temp_arr = arr[d:]
     # Append first d elements from arr to temp array
     temp_arr[len(temp_arr):] = arr[0:d]
-    # Copy entire temp list to arr
-    arr[:] = temp_arr[:]
+    # Return the final list
+    return temp_arr
 
+
+# Method 2: 
 
 # Define list of integers
 arr = [1, 2, 3, 4, 5]
 # Take number of rotation as input from user.
 d = int(input("Number of rotation:"))
 
-rotate_list1(arr, d)
+arr = rotate_list1(arr, d)
 
 print(f"List after {d} rotations:{arr}")
