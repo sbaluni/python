@@ -19,6 +19,19 @@ def rotate_list1(arr, d):
     # Return the final list
     return temp_arr
 
+# Method 2: Rotate array d%n times. [Not efficient approach]
+def rotate_list2(arr, d):
+    d = d%len(arr)    
+    while d > 0:
+        first_element = arr[0]
+        l = len(arr) - 1
+  
+        for i in range(0, l):
+            arr[i] = arr[i+1]
+        arr[l] = first_element
+        d -= 1
+    return arr
+
 # Define list of integers
 arr = [1, 2, 3, 4, 5]
 # Take number of rotation as input from user.
