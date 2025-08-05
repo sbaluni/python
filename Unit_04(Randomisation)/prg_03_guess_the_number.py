@@ -10,7 +10,7 @@
 
 import random
 rand_num = random.randint(1, 10)
-print(rand_num)
+#print(rand_num)
 for i in range(1,4):
     choice = int(input("Guess the number(1-10):"))
     if choice == rand_num:
