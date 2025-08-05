@@ -20,9 +20,8 @@ for i in range(1,6):
         print("You win!!!")
         break
     elif choice < rand_num:
-        print(f"Wrong answer. {choice} is smaller than the actual answer. Please try again.")
+        print(f"Wrong answer. {choice} is too low. Please try again.")
     else:
-        print(f"Wrong answer. {choice} is greater than the actual answer. Please try again.")
+        print(f"Wrong answer. {choice} is too high. Please try again.")
 else:
     print(f"You lose. Correct answer is {rand_num}")
-
