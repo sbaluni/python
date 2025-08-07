@@ -11,6 +11,8 @@
 def set_values():
     # This should always be first line of function.
     global var1
+
+    # This will override global var1 now.
     var1 = 'Local var1 set_values'
     print("Value of var1 inside set_values:", var1)
 
