@@ -2,11 +2,11 @@
 #
 #   User                    Date(dd/mm/yyyy)     Description 
 #   ------------------------------------------------------------------------------------------------
-#   Suryakant Baluni        06/08/2025           Write a python function that accepts arbitrary number 
-#                                                of arguments for a user profile. E.g. first_name, last_name,
-#                                                location, field etc.. 
+#   Suryakant Baluni        06/08/2025           Write a python function sum with docstring and demonstrate
+#                                                how to see the help for the function.
 
 
+# Function sum with docstring defined.
 def sum ( num1 = 0, num2 = 0):
     """
     This function takes two arguments num1 and num2 as input and returns sum of both numbers.
