@@ -7,12 +7,13 @@
 
 
 # Function sum with docstring defined.
-def sum ( num1 = 0, num2 = 0):
+def sum(num1=0, num2=0):
     """
-    This function takes two arguments num1 and num2 as input and returns sum of both numbers.
-    It takes two arguments:
-    num1: The first number. Default 0.
-    num2: The second number. Default 0.
+    This function takes two arguments as input and returns their sum.
+    
+    Arguments:
+        num1: The first number (default: 0)
+        num2: The second number (default: 0)
     """
     return num1 + num2
 
