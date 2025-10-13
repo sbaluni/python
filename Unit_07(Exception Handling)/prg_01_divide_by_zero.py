@@ -6,6 +6,12 @@
 #                                                handle divide by zero exception. If exception occurs,
 #                                                return -1.
 
+
+# Try and except statements are used to catch and handle exceptions in Python. 
+# Statements that can raise exceptions are kept inside the try clause and 
+# the statements that handle the exception are written inside except clause.
+
+
 # Handle ZeroDivisionError exception in function
 def division(num1=0, num2=0):
     try:
