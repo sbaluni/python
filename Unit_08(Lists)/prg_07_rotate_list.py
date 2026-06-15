@@ -8,6 +8,7 @@
 # Example:
 # Input: arr[] = [1, 2, 3, 4, 5], d = 2
 # Output: [3, 4, 5, 1, 2]
+#
 
 # Method 1: Using a temp list and slicing operation on list
 def rotate_list1(arr, d):
