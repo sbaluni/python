@@ -26,10 +26,10 @@ user_choice = input("Type 0 for Rock, 1 for Paper or 2 for Scissors:")
 valid_choices = "012"
 
 # Validate user choice
-if user_choice in valid_choices:
+if user_choice in valid_choices and len(user_choice) == 1:
     
     # If user choice is valid, then randomly generate computer's choice
-    computer_choice = str(random.randint(0, 3))
+    computer_choice = str(random.randint(0, 2))
     
     print(f"Computer's choice: {computer_choice}")
     
