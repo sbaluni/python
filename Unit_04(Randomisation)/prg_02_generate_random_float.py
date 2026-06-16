@@ -14,3 +14,8 @@ rand_float = random.random()
 rand_float = rand_float * 100
 
 print(rand_float)
+
+
+# Using random.uniform method
+rand_float = random.uniform(1, 100)
+print(rand_float)
